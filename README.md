@@ -18,7 +18,7 @@
 
 ---
 
-![WorkShip job hunter home](assets/home-dashboard.jpg)
+![WorkShip job hunter home (design v2)](assets/v2/v2-home.jpg)
 
 ## TL;DR
 
@@ -102,9 +102,35 @@ We used three methods, each chosen for a specific gap:
 
 Use cases and alternate flows are written up in [docs/use-cases.md](docs/use-cases.md).
 
+## Design v2: from wireframes to a polished system
+
+I audited all ~100 v1 frames ([docs/design-review.md](docs/design-review.md)) and rebuilt them as **v2** in the same Figma file. The v1 originals are kept untouched for comparison. Highlights:
+
+- **Design tokens and components:** 35 variables, 9 text styles, and new `Badge/Status`, `Badge/Verified`, `Stage Tracker`, `Segmented Control` and `Stepper` components
+- **Trust made visible:** Verified badges on jobs, and a stage tracker on every application
+- **Semantic color and accessibility:** pink is reserved for actions; statuses get success/warning/danger colors; the brand fill was adjusted so button text passes WCAG AA
+- **Clearer flows:** labeled steppers, honest charts (bar instead of line for categories), and no destructive actions styled as primary
+
+| Before (v1) | After (v2) |
+|---|---|
+| ![v1 applications](assets/v2/v1-applications.jpg) | ![v2 applications](assets/v2/v2-applications.jpg) |
+
+<table>
+  <tr>
+    <td><img src="assets/v2/v2-career-compass.jpg" alt="Career Compass v2"></td>
+    <td><img src="assets/v2/v2-analytics.jpg" alt="Analytics v2"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/v2/v2-verification.jpg" alt="Credential verification v2"></td>
+    <td><img src="assets/v2/v2-recruiter-home.jpg" alt="Recruiter home v2"></td>
+  </tr>
+</table>
+
+Every change is logged in [CHANGELOG.md](CHANGELOG.md).
+
 ## Design system
 
-Dark UI with a pink-to-magenta brand gradient. The headline font is Montserrat, the body font is Inter, and icons come from Material.
+Dark UI with a pink brand color, Poppins type and Material icons. v2 adds variables, text styles and components.
 → [docs/design-system.md](docs/design-system.md)
 
 ## Repository map
@@ -113,8 +139,9 @@ Dark UI with a pink-to-magenta brand gradient. The headline font is Montserrat, 
 .
 ├── README.md                    ← you are here
 ├── CHANGELOG.md                 ← design + docs changes over time
-├── assets/                      ← images used in these docs
+├── assets/                      ← images used in these docs (v2/ = polished screens + before/after)
 └── docs/
+    ├── design-review.md         ← UX audit of v1 → prioritized fixes → what shipped in v2
     ├── research.md              ← problem, audiences, personas, pain points, empathy maps, storyboards
     ├── competitive-analysis.md  ← feature + UX comparison vs LinkedIn, Indeed, Workday
     ├── use-cases.md             ← middleweight + heavyweight use cases
@@ -126,7 +153,8 @@ Dark UI with a pink-to-magenta brand gradient. The headline font is Montserrat, 
 ## What's next
 
 - [ ] Usability test the prototype with job seekers and recruiters
-- [ ] Polish the wireframes into a high-fidelity v2 (tracked in [CHANGELOG.md](CHANGELOG.md))
+- [x] Polish the wireframes into a high-fidelity v2 (see [CHANGELOG.md](CHANGELOG.md))
+- [ ] Layout pass: convert v1's absolutely-positioned screens to auto-layout and raise 10–11px text to 12px+
 - [ ] Define success metrics (time-to-hire, application response rate, verified-profile completion)
 - [ ] Go-to-market: channels, pricing, partnerships for credential verification
 

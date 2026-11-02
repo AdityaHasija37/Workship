@@ -2,6 +2,29 @@
 
 [← Back to README](../README.md)
 
+## v2 (Figma variables, styles and components)
+
+v2 turns the style guide below into real Figma primitives. They're in the `WorkShip v2 / Tokens` collection and bound across every `v2 /` frame.
+
+| Token | Value | Use |
+|---|---|---|
+| `color/bg/canvas` | `#0B0B0D` | Page background |
+| `color/bg/surface` · `surface-raised` · `input` | `#16161A` · `#1F1F25` · `#121215` | Cards, chips, fields |
+| `color/border/subtle` · `default` | `#26262D` · `#3A3A44` | Card and input borders (pink only on focus) |
+| `color/text/primary` · `secondary` · `tertiary` | `#FFFFFF` · `#B4B4BE` · `#8C8C98` | Text hierarchy |
+| `color/brand/primary` | `#E2114D` | Primary buttons and active states. White text passes AA (≈4.75:1) |
+| `color/brand/text` | `#FF5C8A` | Pink text on dark surfaces |
+| `color/status/success` · `warning` · `danger` · `info` | `#2ECC71` · `#F5A524` · `#FF5A5F` · `#5AA9FF` | Statuses (+ `-subtle` 14% fills) |
+| `space/4…48` · `radius/sm·md·lg·pill` | 4–48 · 6/10/16/999 | Spacing and corners |
+
+**Type scale (Poppins):** Display 44 Bold · H1 32 · H2 24 · H3 18 SemiBold · Body 16 · Body Small 14 · Label 14 Medium · Caption 12 Medium · Button 14 SemiBold
+
+**Components:** `Badge/Status` (success, warning, danger, info, neutral, brand) · `Badge/Verified` · `Stage Tracker` (Applied → Screening → Interview → Offer) · `Segmented Control/Role` · `Stepper/Verification`
+
+![v2 components](../assets/v2/v2-components.jpg)
+
+## v1 style guide
+
 ![Style guide](../assets/style-guide.jpg)
 
 ## Color

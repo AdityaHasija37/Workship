@@ -42,6 +42,18 @@ A four-step coach-mark tour over the home dashboard. The background is blurred s
 - **Featured Jobs:** verified listings with salary, location, Save and one-click **Apply**
 - **Company Notifications:** followed companies with new roles
 
-## 4. More flows
+## 4. Design v2 gallery
 
-Profile, re-verification, Career Compass, Wingman AI, analytics and the full recruiter flow are in the Figma file. Images will be added here as part of the v2 polish pass (see [CHANGELOG](../CHANGELOG.md)).
+In the Figma file, every v2 frame is named `v2 / <name>` and sits 26,000px to the right of its v1 original. Changes are described in [design-review.md](design-review.md) and [CHANGELOG](../CHANGELOG.md).
+
+| Sign-up | Home |
+|---|---|
+| ![](../assets/v2/v2-signup.jpg) | ![](../assets/v2/v2-home.jpg) |
+| **Applications** | **Saved jobs** |
+| ![](../assets/v2/v2-applications.jpg) | ![](../assets/v2/v2-saved-jobs.jpg) |
+| **Credential verification** | **Career Compass** |
+| ![](../assets/v2/v2-verification.jpg) | ![](../assets/v2/v2-career-compass.jpg) |
+| **Wingman AI** | **Analytics** |
+| ![](../assets/v2/v2-wingman.jpg) | ![](../assets/v2/v2-analytics.jpg) |
+| **Recruiter home** | |
+| ![](../assets/v2/v2-recruiter-home.jpg) | |
