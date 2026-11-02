@@ -10,7 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=0-1&t=ZczFhPyOQYl5Miyo-1"><b>▶ Figma prototype</b></a> ·
+  <a href="https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=2008-3373&starting-point-node-id=2008%3A3373&scaling=scale-down"><b>▶ Figma prototype (v2)</b></a> ·
+  <a href="https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=0-1&t=ZczFhPyOQYl5Miyo-1">v1 prototype</a> ·
   <a href="https://www.figma.com/design/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes">Figma file</a> ·
   <a href="docs/pdf/WorkShip-Final-Presentation.pdf">Final presentation (PDF)</a> ·
   <a href="docs/pdf/WorkShip-Research-Report.pdf">Research report (PDF)</a>

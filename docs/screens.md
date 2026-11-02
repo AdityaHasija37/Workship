@@ -1,6 +1,6 @@
 # Screens
 
-[← Back to README](../README.md) · [Open the Figma file](https://www.figma.com/design/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes) · [Run the prototype](https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=0-1&t=ZczFhPyOQYl5Miyo-1)
+[← Back to README](../README.md) · [Open the Figma file](https://www.figma.com/design/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes) · [Run the v2 prototype](https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=2008-3373&starting-point-node-id=2008%3A3373&scaling=scale-down) · [v1 prototype](https://www.figma.com/proto/CRmPtlj1NyeqXDfQQQRSwM/Workship---Wireframes?node-id=0-1&t=ZczFhPyOQYl5Miyo-1)
 
 The Figma file is organized into labeled sections, one per flow:
 
